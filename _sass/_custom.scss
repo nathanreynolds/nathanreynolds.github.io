@@ -1,5 +1,11 @@
 // Your custom SCSS should be written here...
 
+.herbrew {
+	text-align: right;
+}
+
+
+// Header
 h1[role="header"]{
 	font-size: $med;
 	background: $primary-color;
@@ -9,11 +15,10 @@ h1[role="header"]{
 h1[role="header"] a{
 	display: block;
 	margin: 0.6em inherit;
-	color: $white;
+	color: $default-color;
 }
 
 p[role="sub-header"] {
-	text-align: right;
 	color: $primary-color;
 	font-size: $large;
 }
@@ -22,6 +27,9 @@ p[role="sub-header"] {
 
 // Footer
 .social {
-	font-size: $large;
+	font-size: $xlarge;
 	text-align: right;
+}
+.social a {
+	color: $42a35a;
 }
