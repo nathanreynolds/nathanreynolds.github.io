@@ -2,5 +2,9 @@
 
 h1[role="header"]{
 	font-size: $med;
+}
+
+h1[role="header"] a{
 	background: $primary-color;
 }
+
