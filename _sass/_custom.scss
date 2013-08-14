@@ -15,5 +15,13 @@ h1[role="header"] a{
 p[role="sub-header"] {
 	text-align: right;
 	color: $primary-color;
-	font-size: $large
+	font-size: $large;
+}
+
+
+
+// Footer
+.social {
+	font-size: $large;
+	text-align: right;
 }

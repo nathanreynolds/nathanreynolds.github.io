@@ -1879,3 +1879,5 @@ h1[role="header"] { font-size: 18px; background: #3085d6; text-align: center; }
 h1[role="header"] a { display: block; margin: 0.6em inherit; color: white; }
 
 p[role="sub-header"] { text-align: right; color: #3085d6; font-size: 26px; }
+
+.social { font-size: 26px; text-align: right; }
