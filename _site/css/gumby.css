@@ -1881,6 +1881,8 @@ h1[role="header"] a { display: block; margin: 0.6em inherit; color: #f2f2f2; }
 
 p[role="sub-header"] { color: #3085d6; font-size: 26px; }
 
+footer[role="footer"] { margin-top: 3rem; }
+
 .social { text-align: right; }
 .social a { color: #3085d6; }
 .social a i { font-size: 30px; }
