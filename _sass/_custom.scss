@@ -1,11 +1,13 @@
 // Your custom SCSS should be written here...
 
 h1[role="header"]{
-	font-size: $med;
+	font-size: $large;
 	background: $primary-color;
 }
 
 h1[role="header"] a{
 	display: block;
+	margin: 0.6em inherit;
+	color: $white;
 }
 
