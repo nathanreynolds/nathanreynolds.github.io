@@ -2,9 +2,10 @@
 
 h1[role="header"]{
 	font-size: $med;
+	background: $primary-color;
 }
 
 h1[role="header"] a{
-	background: $primary-color;
+	display: block;
 }
 

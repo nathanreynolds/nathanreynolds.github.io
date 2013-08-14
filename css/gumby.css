@@ -1877,6 +1877,6 @@ table.rounded thead ~ tr:last-child td:last-child, table.rounded tbody tr:last-c
 table.rounded thead ~ tr:last-child td:first-child, table.rounded tbody tr:last-child td:first-child { border-bottom-left-radius: 4px; }
 table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr:first-child td, table.rounded > tbody:first-child tr:first-child td { border-top: 0; }
 
-h1[role="header"] { font-size: 18px; }
+h1[role="header"] { font-size: 18px; background: #3085d6; }
 
-h1[role="header"] a { background: #3085d6; }
+h1[role="header"] a { display: block; }
