@@ -10,12 +10,12 @@ h1[role="header"]{
 	font-size: $med;
 	background: $primary-color;
 	text-align: center;
+}
 
-	a{
-		display: block;
-		margin: 0.6em inherit;
-		color: $default-color;
-	}
+h1[role="header"] a{
+	display: block;
+	margin: 0.6em inherit;
+	color: $default-color;
 }
 
 p[role="sub-header"] {
@@ -27,12 +27,9 @@ p[role="sub-header"] {
 
 // Footer
 .social {
+	font-size: $xxlarge;
 	text-align: right;
-
-	a {
-		color: $primary-color;
-		i {
-			font-size: $xlarge;
-		}
-	}
+}
+.social a {
+	color: $primary-color;
 }
