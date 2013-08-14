@@ -1874,14 +1874,13 @@ table.rounded thead ~ tr:last-child td:last-child, table.rounded tbody tr:last-c
 table.rounded thead ~ tr:last-child td:first-child, table.rounded tbody tr:last-child td:first-child { border-bottom-left-radius: 4px; }
 table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr:first-child td, table.rounded > tbody:first-child tr:first-child td { border-top: 0; }
 
-.herbrew { text-align: right; }
+.hebrew { text-align: right; }
 
 h1[role="header"] { font-size: 18px; background: #3085d6; text-align: center; }
-
 h1[role="header"] a { display: block; margin: 0.6em inherit; color: #f2f2f2; }
 
 p[role="sub-header"] { color: #3085d6; font-size: 26px; }
 
-.social { font-size: 48px; text-align: right; }
-
+.social { text-align: right; }
 .social a { color: #3085d6; }
+.social a i { font-size: 42px; }
