@@ -1,8 +1,9 @@
 // Your custom SCSS should be written here...
 
 h1[role="header"]{
-	font-size: $large;
+	font-size: $med;
 	background: $primary-color;
+	text-align: center;
 }
 
 h1[role="header"] a{
@@ -11,3 +12,8 @@ h1[role="header"] a{
 	color: $white;
 }
 
+p[role="sub-header"] {
+	text-align: right;
+	color: $primary-color;
+	font-size: $large
+}
